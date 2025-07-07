@@ -46,11 +46,14 @@ This project was made openly using **ChatGPT-4o**, and the creator doesn't hide 
 
 ## 📖 License / Attribution
 
-This project is published under [The Unlicense](https://unlicense.org/) — fully free to use.
+This project is published under the GNU General Public License v3.0 (GPLv3).  
+You are free to use, modify, and redistribute this software, but you must:
 
-Attribution is not legally required, but appreciated:
+- Keep the original license text (GPLv3)
+- Mention the original author (2025)
+- Provide access to the source code when distributing a modified version
 
-```
+This program was developed with the help of ChatGPT-4o (OpenAI) as a generation tool, not as a co-author.
 Originally created by the author (2025)  
 Developed with help of ChatGPT-4o (OpenAI)
 ```
@@ -99,6 +102,9 @@ python extractor_gui.py
 
 ## 📖 Лицензия и открытость
 
-- Open Source — можно менять, улучшать, собирать .exe под себя
-- Упоминание автора не обязательно, но приветствуется
-- Проект создан с нуля, без копирования чужих репозиториев
+Проект распространяется по лицензии **GNU GPLv3**. Это означает:
+
+- Исходный код открыт — вы можете изменять, распространять и собирать под себя
+- **Обязательное условие**: сохранять указание автора и лицензии GPLv3
+- При переработке проекта необходимо предоставить исходный код
+- Программа разработана с помощью ChatGPT-4o (OpenAI) как инструмента генерации, а не соавтора
