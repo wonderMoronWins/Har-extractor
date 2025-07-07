@@ -3,8 +3,6 @@
 > A small tool to extract embedded images from `.har` files exported via browser DevTools.  
 > Simple. Open-source. Made with ChatGPT-4o.
 
----
-
 ## 📌 What it does
 
 IHAR extracts images directly embedded (as base64) inside `.har` files — useful for preserving media when access to source links is lost or blocked.
@@ -13,8 +11,6 @@ You can:
 - Select a `.har` file exported from Chrome/Firefox/Edge
 - Extract all images (PNG, JPEG, WEBP, AVIF...)
 - Save them into a folder of your choice
-
----
 
 ## ⚙ How to use
 
@@ -33,16 +29,12 @@ pip install haralyzer pillow
 python extractor_gui.py
 ```
 
----
-
 ## 🤖 Why this was created
 
 > "This is not an attempt to pose as a developer, but a way to share a simple, working tool."
 
 The author is passionate about IT, neural networks, and programming in general.  
 This project was made openly using **ChatGPT-4o**, and the creator doesn't hide or deny that.
-
----
 
 ## 📖 License / Attribution
 
@@ -58,17 +50,14 @@ Originally created by the author (2025)
 Developed with help of ChatGPT-4o (OpenAI)
 ```
 
----
-
 # IHAR — Извлечение изображений из HAR
 
 > Простая утилита для извлечения изображений из файлов `.har`, экспортированных из браузеров.
 
----
-
 ## 📌 What the program does / Что делает программа
 
-**EN:**  
+**EN:**
+  
 IHAR extracts images encoded in base64 and embedded in `.har` files. This is useful when:
 - The original page is no longer accessible
 - The source requires login/authentication
@@ -76,16 +65,16 @@ IHAR extracts images encoded in base64 and embedded in `.har` files. This is use
 
 **RU:**
 
+
 IHAR извлекает изображения, закодированные в base64 и встроенные в `.har`-файлы. Это полезно, если:
 - Страница больше недоступна
 - Источник защищён / требует авторизации
 - Нужно достать картинки с сайта, где всё динамически
 
----
-
 ## ⚙ How to use / Как пользоваться
 
-**EN:**  
+**EN:**
+  
 ### 🟢 If you use the `.exe` version:
 1. Run `extractor_gui.exe`
 2. Choose HAR file (Ctrl+Shift+I → Network → Save all as HAR)
@@ -101,6 +90,7 @@ python extractor_gui.py
 
 **RU:**
 
+
 ### 🟢 Если у вас `.exe`:
 1. Запустите `extractor_gui.exe`
 2. Выберите HAR-файл (через Ctrl+Shift+I → Network → Save all as HAR)
@@ -114,15 +104,11 @@ pip install haralyzer pillow
 python extractor_gui.py
 ```
 
----
-
 ## 💡 Почему это сделано
 
 Автор не пытается выдать себя за программиста. Он хочет сделать доступным понятный, работающий инструмент.  
 Проект создан с помощью **ChatGPT-4o**, и это открыто указывается.  
 Интерес — в IT, нейросетях, автоматизации и простых решениях для повседневных задач.
-
----
 
 ## 📖 Лицензия и открытость
 
