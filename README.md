@@ -66,7 +66,15 @@ Developed with help of ChatGPT-4o (OpenAI)
 
 ---
 
-## 📌 Что делает программа
+## 📌 What the program does / Что делает программа
+
+**EN:**  
+IHAR extracts images encoded in base64 and embedded in `.har` files. This is useful when:
+- The original page is no longer accessible
+- The source requires login/authentication
+- You want to grab images from dynamic content
+
+**RU:**
 
 IHAR извлекает изображения, закодированные в base64 и встроенные в `.har`-файлы. Это полезно, если:
 - Страница больше недоступна
@@ -75,7 +83,23 @@ IHAR извлекает изображения, закодированные в 
 
 ---
 
-## ⚙ Как пользоваться
+## ⚙ How to use / Как пользоваться
+
+**EN:**  
+### 🟢 If you use the `.exe` version:
+1. Run `extractor_gui.exe`
+2. Choose HAR file (Ctrl+Shift+I → Network → Save all as HAR)
+3. Select output folder
+4. Click `IMPORT`
+5. Done — images appear in selected directory
+
+### 🐍 If you run from source:
+```bash
+pip install haralyzer pillow
+python extractor_gui.py
+```
+
+**RU:**
 
 ### 🟢 Если у вас `.exe`:
 1. Запустите `extractor_gui.exe`
