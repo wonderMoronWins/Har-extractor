@@ -14,7 +14,6 @@ You can:
 - Extract all images (PNG, JPEG, WEBP, AVIF...)
 - Save them into a folder of your choice
 
-![HAR Banner](./assets/har-banner.png)
 ## ⚙ How to use
 
 ### ✅ Recommended: Windows `.exe` version
