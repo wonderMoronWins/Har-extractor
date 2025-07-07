@@ -49,8 +49,10 @@ This project was made openly using **ChatGPT-4o**, and the creator doesn't hide 
 > 💡 This tool was created openly using **ChatGPT-4o** (OpenAI) as a **code generation assistant**,  
 > not as a co-author.  
 >  
-> 🧑 Author: [Your Name] (2025)
-
+> 🧑 Author:Егорин Евгений Александрович  
+🌍 Автор (EN): Egorin Eugene Alexandrovich  
+🔗 GitHub: [wonderMoronWins](https://github.com/wonderMoronWins)  
+📅 Год: 2025
 ---
 
 ## 📘 Overview as a generation tool, not as a co-author.
