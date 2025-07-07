@@ -1,94 +1,123 @@
-# extractor_gui.py — обновлённая версия с улучшенным интерфейсом
 
-import json
-import os
-import base64
+# -*- coding: utf-8 -*-
+# Импорт модулей / Import modules
 import tkinter as tk
 from tkinter import filedialog, messagebox
+from extractor import extract_images
+import gettext
+import os
 
-har_path = ""
-output_folder = ""
+# Глобальные переменные и путь к переводам / Globals and locale path
+selected_har = ""
+selected_folder = ""
+current_lang = 'en'
+localedir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'locale')
 
+# Загрузка перевода / Load translation
+def load_translation(lang_code):
+    global _
+    lang = gettext.translation('messages', localedir=localedir, languages=[lang_code], fallback=True)
+    lang.install()
+    _ = lang.gettext
+
+# Установка языка / Set language
+def set_language(lang_code):
+    global current_lang
+    current_lang = lang_code
+    load_translation(lang_code)
+    update_texts()
+
+# Обновление всех надписей в интерфейсе / Refresh GUI texts
+def update_texts():
+    root.title(_("Import .har"))
+    title_label.config(text=_("Import .har"))
+    har_btn.config(text=_("Select .har file"))
+    folder_btn.config(text=_("Select output folder"))
+    import_btn.config(text=_("IMPORT"))
+    format_label.config(text=_(".jpg"))
+
+# Выбор HAR-файла / Select HAR file
 def select_har():
-    global har_path
-    har_path = filedialog.askopenfilename(
-        title="Select HAR file",
+    global selected_har
+    path = filedialog.askopenfilename(
+        title=_("Select .har file"),
         filetypes=[("HAR files", "*.har")]
     )
-    if har_path:
-        status_label.config(text=f"Selected: {os.path.basename(har_path)}")
+    if path:
+        selected_har = path
+        har_label.config(text=path.split("/")[-1])
 
-def select_output():
-    global output_folder
-    output_folder = filedialog.askdirectory(title="Select output folder")
-    if output_folder:
-        status_label.config(text=f"Output folder selected")
+# Выбор папки сохранения / Select output folder
+def select_folder():
+    global selected_folder
+    path = filedialog.askdirectory(title=_("Select output folder"))
+    if path:
+        selected_folder = path
+        folder_label.config(text=path.split("/")[-1])
 
-def extract_images():
-    if not har_path:
-        messagebox.showerror("Error", "No HAR file selected.")
+# Запуск импорта / Run import
+def run_import():
+    if not selected_har or not selected_folder:
+        messagebox.showwarning("Missing", _("Select both .har file and output folder"))
         return
-    if not output_folder:
-        messagebox.showerror("Error", "No output folder selected.")
-        return
+    count = extract_images(selected_har, selected_folder)
+    messagebox.showinfo("Done", _("Extracted {count} images to /img").format(count=count))
 
-    with open(har_path, "r", encoding="utf-8") as f:
-        har_data = json.load(f)
+# Начальная загрузка языка / Load default language
+load_translation(current_lang)
 
-    entries = har_data.get("log", {}).get("entries", [])
-    image_count = 0
+# Настройка окна / GUI setup
+root = tk.Tk()
+root.title(_("Import .har"))
+root.geometry("500x300")
+root.configure(bg='#6b90aa')
 
-    for entry in entries:
-        response = entry.get("response", {})
-        content = response.get("content", {})
-        mime_type = content.get("mimeType", "")
+# Меню: Settings → Language / Top menu
+menubar = tk.Menu(root)
+settings_menu = tk.Menu(menubar, tearoff=0)
+lang_menu = tk.Menu(settings_menu, tearoff=0)
 
-        if mime_type.startswith("image/") and "base64" in content.get("encoding", ""):
-            ext = mime_type.split("/")[-1]
-            raw_data = base64.b64decode(content.get("text", ""))
-            filename = f"image_{image_count:03d}.{ext}"
-            filepath = os.path.join(output_folder, filename)
+lang_menu.add_command(label="English", command=lambda: set_language("en"))
+lang_menu.add_command(label="Русский", command=lambda: set_language("ru"))
+lang_menu.add_command(label="Українська", command=lambda: set_language("uk"))
 
-            with open(filepath, "wb") as img_file:
-                img_file.write(raw_data)
-                image_count += 1
+settings_menu.add_cascade(label="Language", menu=lang_menu)
+menubar.add_cascade(label="Settings", menu=settings_menu)
+root.config(menu=menubar)
 
-    # ✔ Добавляем галочку на IMPORT
-    import_btn.config(text="✔ IMPORT DONE")
-    status_label.config(text=f"Extracted {image_count} image(s)")
+# Заголовок / Title label
+title_label = tk.Label(root, text=_("Import .har"), font=("Arial", 18, "bold"), bg='#6b90aa', fg='white')
+title_label.pack(pady=15)
 
-# ==== UI ====
+# Основной блок выбора / File and folder selection area
+frame = tk.Frame(root, bg='#6b90aa')
+frame.pack()
 
-window = tk.Tk()
-window.title("Import .har")
-window.geometry("480x300")
-window.configure(bg="#5a7ca7")
+har_btn = tk.Button(frame, text=_("Select .har file"), command=select_har)
+har_btn.grid(row=0, column=0, padx=10)
 
-title_label = tk.Label(window, text="Import .har", font=("Segoe UI", 18, "bold"), bg="#5a7ca7", fg="white")
-title_label.pack(pady=10)
+arrow_label = tk.Label(frame, text="→", font=("Arial", 14), bg='#6b90aa', fg='white')
+arrow_label.grid(row=0, column=1)
 
-frame = tk.Frame(window, bg="#5a7ca7")
-frame.pack(pady=20)
+format_label = tk.Label(frame, text=_(".jpg"), font=("Arial", 12, "bold"), bg='white', relief='sunken', width=6)
+format_label.grid(row=0, column=2, padx=10)
 
-btn1 = tk.Button(frame, text="Select .har file", width=20, command=select_har)
-btn1.grid(row=0, column=0, padx=(10, 5))
+arrow2_label = tk.Label(frame, text="→", font=("Arial", 14), bg='#6b90aa', fg='white')
+arrow2_label.grid(row=0, column=3)
 
-arrow1 = tk.Label(frame, text="→", font=("Segoe UI", 12), bg="#5a7ca7", fg="white")
-arrow1.grid(row=0, column=1)
+folder_btn = tk.Button(frame, text=_("Select output folder"), command=select_folder)
+folder_btn.grid(row=0, column=4, padx=10)
 
-btn2 = tk.Button(frame, text=".jpg", width=10, state="disabled")
-btn2.grid(row=0, column=2, padx=5)
+# Метки с выбранными путями / Display selected paths
+har_label = tk.Label(root, text="", bg='#6b90aa', fg='white', font=("Arial", 10))
+har_label.pack()
 
-arrow2 = tk.Label(frame, text="→", font=("Segoe UI", 12), bg="#5a7ca7", fg="white")
-arrow2.grid(row=0, column=3)
+folder_label = tk.Label(root, text="", bg='#6b90aa', fg='white', font=("Arial", 10))
+folder_label.pack()
 
-btn3 = tk.Button(frame, text="Select output folder", width=20, command=select_output)
-btn3.grid(row=0, column=4, padx=(5, 10))
+# Кнопка импорта / Import button
+import_btn = tk.Button(root, text=_("IMPORT"), font=("Arial", 12, "bold"), bg='white', command=run_import)
+import_btn.pack(pady=25)
 
-import_btn = tk.Button(window, text="IMPORT", width=20, height=2, command=extract_images)
-import_btn.pack(pady=10)
-
-status_label = tk.Label(window, text="", bg="#5a7ca7", fg="white", font=("Segoe UI", 10))
-status_label.pack(pady=5)
-
-window.mainloop()
+# Запуск интерфейса / Start GUI loop
+root.mainloop()
