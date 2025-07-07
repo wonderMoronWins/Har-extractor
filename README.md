@@ -53,7 +53,6 @@ This project was made openly using **ChatGPT-4o**, and the creator doesn't hide 
 
 ## 📘 Overview as a generation tool, not as a co-author.
  of ChatGPT-4o (OpenAI)
-```
 
 # IHAR — Извлечение изображений из HAR
 
