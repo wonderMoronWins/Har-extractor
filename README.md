@@ -14,7 +14,6 @@ You can:
 - Extract all images (PNG, JPEG, WEBP, AVIF...)
 - Save them into a folder of your choice
 
-
 ## ⚙ How to use
 
 ### ✅ Recommended: Windows `.exe` version
