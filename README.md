@@ -52,8 +52,7 @@ This project was made openly using **ChatGPT-4o**, and the creator doesn't hide 
 ---
 
 ## 📘 Overview as a generation tool, not as a co-author.
-Originally created by the author (2025)  
-Developed with help of ChatGPT-4o (OpenAI)
+ of ChatGPT-4o (OpenAI)
 ```
 
 # IHAR — Извлечение изображений из HAR
@@ -120,3 +119,10 @@ IHAR извлекает изображения, закодированные в 
 - **Обязательное условие**: сохранять указание автора и лицензии GPLv3
 - При переработке проекта необходимо предоставить исходный код
 - Программа разработана с помощью ChatGPT-4o (OpenAI) как инструмента генерации, а не соавтора
+
+---
+
+## ℹ️ Author
+
+This project was created by [Твоё имя] (2025)  
+Developed with help of ChatGPT-4o (OpenAI) as a generation assistant.
