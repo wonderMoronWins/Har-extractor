@@ -24,10 +24,8 @@ You can:
 Works without Python. No installation needed.
 
 ### 🐍 Alternative: Run from source
-```bash
-pip install haralyzer pillow
-python extractor_gui.py
-```
+- `pip install haralyzer pillow`
+- `python extractor_gui.py`
 
 ## 🤖 Why this was created
 
@@ -36,16 +34,24 @@ python extractor_gui.py
 The author is passionate about IT, neural networks, and programming in general.  
 This project was made openly using **ChatGPT-4o**, and the creator doesn't hide or deny that.
 
-## 📖 License / Attribution
+## 📖 License & Attribution
 
-This project is published under the GNU General Public License v3.0 (GPLv3).  
-You are free to use, modify, and redistribute this software, but you must:
+> 📝 This project is licensed under the **GNU GPLv3**.  
+> You are free to use, modify, and redistribute this software, but you **must**:
+> 
+> - 🔒 Keep the original license (GPLv3)
+> - 🙋 Mention the original author (2025)
+> - 📂 Provide source code if you distribute a modified version
+> 
+> ---
+> 💡 This tool was created openly using **ChatGPT-4o** (OpenAI) as a **code generation assistant**,  
+> not as a co-author.  
+>  
+> 🧑 Author: [Your Name] (2025)
 
-- Keep the original license text (GPLv3)
-- Mention the original author (2025)
-- Provide access to the source code when distributing a modified version
+---
 
-This program was developed with the help of ChatGPT-4o (OpenAI) as a generation tool, not as a co-author.
+## 📘 Overview as a generation tool, not as a co-author.
 Originally created by the author (2025)  
 Developed with help of ChatGPT-4o (OpenAI)
 ```
@@ -83,10 +89,8 @@ IHAR извлекает изображения, закодированные в 
 5. Done — images appear in selected directory
 
 ### 🐍 If you run from source:
-```bash
-pip install haralyzer pillow
-python extractor_gui.py
-```
+- `pip install haralyzer pillow`
+- `python extractor_gui.py`
 
 **RU:**
 
@@ -99,10 +103,8 @@ python extractor_gui.py
 5. Готово — файлы появятся в указанной директории
 
 ### 🐍 Если запускаете из кода:
-```bash
-pip install haralyzer pillow
-python extractor_gui.py
-```
+- `pip install haralyzer pillow`
+- `python extractor_gui.py`
 
 ## 💡 Почему это сделано
 
