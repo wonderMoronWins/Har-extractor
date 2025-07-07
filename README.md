@@ -1,4 +1,6 @@
 # IHAR — HAR Image Extractor
+![HAR Banner](./assets/har-banner.png)
+
 
 > A small tool to extract embedded images from `.har` files exported via browser DevTools.  
 > Simple. Open-source. Made with ChatGPT-4o.
