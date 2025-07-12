@@ -1,0 +1,11 @@
+This application uses PyQt5, which is licensed under the GNU GPL v3.
+
+Qt (and PyQt) are free to use under GPL license, or commercial licenses if required.
+For more information, see:
+
+- https://www.riverbankcomputing.com/software/pyqt/license
+- https://www.qt.io/licensing
+
+By distributing this program under GPLv3, the use of PyQt5 is fully compliant.
+
+(c) 2025

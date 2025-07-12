@@ -1,0 +1,19 @@
+# bytecode
+__pycache__/
+*.py[cod]
+
+# build artifacts
+build/
+dist/
+*.spec
+
+# user data
+*.json
+*.log
+output/
+.history.txt
+.settings.json
+
+# IDE/editor junk
+*.vscode/
+.idea/

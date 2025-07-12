@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Недавние папки импорта:"
+msgstr "Dossiers d'importation récents :"
+
+msgid "Перетащите .har файл сюда или нажмите ниже"
+msgstr "Déposez un fichier .har ici ou cliquez ci-dessous"
+
+msgid "Загрузить .har"
+msgstr "Charger un fichier .har"
+
+msgid "Импорт"
+msgstr "Importer"
+
+msgid "Отмена"
+msgstr "Annuler"
+
+msgid "Выберите язык:"
+msgstr "Choisissez la langue :"
+
+msgid "Русский"
+msgstr "Russe"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Українська"
+msgstr "Ukrainien"
+
+msgid "Очистить историю"
+msgstr "Effacer l'historique"
+
+msgid "← Назад"
+msgstr "← Retour"
+
+msgid "HAR Importer"
+msgstr "Importateur HAR"
+
+msgid "Готово"
+msgstr "Terminé"
+
+msgid "Извлечено изображений:"
+msgstr "Images extraites :"
+
+msgid "Ошибка"
+msgstr "Erreur"
+
+msgid "Не удалось прочитать файл:"
+msgstr "Impossible de lire le fichier :"
+
+msgid "Папка недоступна или удалена."
+msgstr "Le dossier est indisponible ou supprimé."
+
+msgid "История очищена."
+msgstr "Historique effacé."
+
+msgid "Язык изменён"
+msgstr "Langue modifiée."
+
+msgid "Интерфейс обновлён."
+msgstr "Interface mise à jour."
+
+msgid "Выбрать .har файл"
+msgstr "Sélectionner le fichier .har"
+
+msgid "Загружен: "
+msgstr "Chargé : "
+
+msgid "Выбрать папку для сохранения"
+msgstr "Choisir un dossier de sauvegarde"
