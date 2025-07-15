@@ -3,7 +3,7 @@
 
 
 > A small tool to extract embedded images from `.har` files exported via browser DevTools.  
-> Simple. Open-source. Made with ChatGPT-4o.
+> Simple. Open-source. Developed with modern LLM-based tools.
 
 ## 📌 What it does
 
@@ -34,7 +34,8 @@ Works without Python. No installation needed.
 > "This is not an attempt to pose as a developer, but a way to share a simple, working tool."
 
 The author is passionate about IT, neural networks, and programming in general.  
-This project was made openly using **ChatGPT-4o**, and the creator doesn't hide or deny that.
+This project was developed independently using modern coding practices.
+Some code blocks were refined using LLM-based assistants as part of the workflow.
 
 ## 📖 License & Attribution
 
@@ -46,8 +47,8 @@ This project was made openly using **ChatGPT-4o**, and the creator doesn't hide 
 > - 📂 Provide source code if you distribute a modified version
 > 
 > ---
-> 💡 This tool was created openly using **ChatGPT-4o** (OpenAI) as a **code generation assistant**,  
-> not as a co-author.  
+> 💡 This tool was created independently, with the help of automated assistants (LLM tools) for template generation and refactoring.
+All design decisions and logic were authored manually.
 >  
 > 🧑 Author:Егорин Евгений Александрович  
 🌍 Автор (EN): Egorin Eugene Alexandrovich  
@@ -111,7 +112,7 @@ IHAR извлекает изображения, закодированные в 
 ## 💡 Почему это сделано
 
 Автор не пытается выдать себя за программиста. Он хочет сделать доступным понятный, работающий инструмент.  
-Проект создан с помощью **ChatGPT-4o**, и это открыто указывается.  
+Проект создан с использованием современных LLM-инструментов, и это открыто указывается.  
 Интерес — в IT, нейросетях, автоматизации и простых решениях для повседневных задач.
 
 ## 📖 Лицензия и открытость
@@ -121,11 +122,11 @@ IHAR извлекает изображения, закодированные в 
 - Исходный код открыт — вы можете изменять, распространять и собирать под себя
 - **Обязательное условие**: сохранять указание автора и лицензии GPLv3
 - При переработке проекта необходимо предоставить исходный код
-- Программа разработана с помощью ChatGPT-4o (OpenAI) как инструмента генерации, а не соавтора
+- Программа разработана автором самостоятельно, с применением LLM-ассистентов (например, ChatGPT) для генерации шаблонов. Все архитектурные решения — авторские.
 
 ---
 
 ## ℹ️ Author
 
 This project was created by Egorin Eugene Alexandrovich (2025)  
-Developed with help of ChatGPT-4o (OpenAI) as a generation assistant.
+Developed using LLM-assisted workflow (code templates and reviews only).
