@@ -56,8 +56,8 @@ All design decisions and logic were authored manually.
 📅 Год: 2025
 ---
 
-## 📘 Overview as a generation tool, not as a co-author.
- of ChatGPT-4o (OpenAI)
+## 📘 Overview: LLM-assisted workflow, not AI authorship
+The project was built using LLM-based tools for code generation and review, while all logic and decisions were made by the author.
 
 # IHAR — Извлечение изображений из HAR
 
