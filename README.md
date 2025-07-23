@@ -1,7 +1,6 @@
 # IHAR — HAR Image Extractor
 ![HAR Banner](./assets/har-banner.png)
 
-
 > A small tool to extract embedded images from `.har` files exported via browser DevTools.  
 > Simple. Open-source. Developed with modern LLM-based tools.
 
@@ -18,10 +17,11 @@ You can:
 
 ### ✅ Recommended: Windows `.exe` version
 1. Download and run `extractor_gui.exe`
-2. Select HAR file (exported from browser)
-3. (Optional) Select output folder
-4. Click `IMPORT`
-5. Images will appear in that folder
+2. Open your browser (Chrome / Edge / Firefox), press `F12`, go to `Network` tab
+3. Reload the target page and filter by `img`
+4. Right-click → `Save all as HAR with content`
+5. Select the saved `.har` file in the app
+6. Click `IMPORT` — extracted images will appear in the output folder
 
 Works without Python. No installation needed.
 
@@ -34,7 +34,7 @@ Works without Python. No installation needed.
 > "This is not an attempt to pose as a developer, but a way to share a simple, working tool."
 
 The author is passionate about IT, neural networks, and programming in general.  
-This project was developed independently using modern coding practices.
+This project was developed independently using modern coding practices.  
 Some code blocks were refined using LLM-based assistants as part of the workflow.
 
 ## 📖 License & Attribution
@@ -45,15 +45,16 @@ Some code blocks were refined using LLM-based assistants as part of the workflow
 > - 🔒 Keep the original license (GPLv3)
 > - 🙋 Mention the original author (2025)
 > - 📂 Provide source code if you distribute a modified version
-> 
-> ---
-> 💡 This tool was created independently, with the help of automated assistants (LLM tools) for template generation and refactoring.
-All design decisions and logic were authored manually.
+
+---
+> 💡 This tool was created independently, with the help of automated assistants (LLM tools) for template generation and refactoring.  
+> All design decisions and logic were authored manually.
 >  
-> 🧑 Author:Егорин Евгений Александрович  
-🌍 Автор (EN): Egorin Eugene Alexandrovich  
-🔗 GitHub: [wonderMoronWins](https://github.com/wonderMoronWins)  
-📅 Год: 2025
+> 🧑 Author: Егорин Евгений Александрович  
+> 🌍 Автор (EN): Egorin Eugene Alexandrovich  
+> 🔗 GitHub: [wonderMoronWins](https://github.com/wonderMoronWins)  
+> 📅 Год: 2025
+
 ---
 
 ## 📘 Overview: LLM-assisted workflow, not AI authorship
@@ -66,14 +67,13 @@ The project was built using LLM-based tools for code generation and review, whil
 ## 📌 What the program does / Что делает программа
 
 **EN:**
-  
+
 IHAR extracts images encoded in base64 and embedded in `.har` files. This is useful when:
 - The original page is no longer accessible
 - The source requires login/authentication
 - You want to grab images from dynamic content
 
 **RU:**
-
 
 IHAR извлекает изображения, закодированные в base64 и встроенные в `.har`-файлы. Это полезно, если:
 - Страница больше недоступна
@@ -83,13 +83,14 @@ IHAR извлекает изображения, закодированные в 
 ## ⚙ How to use / Как пользоваться
 
 **EN:**
-  
+
 ### 🟢 If you use the `.exe` version:
 1. Run `extractor_gui.exe`
-2. Choose HAR file (Ctrl+Shift+I → Network → Save all as HAR)
-3. Select output folder
-4. Click `IMPORT`
-5. Done — images appear in selected directory
+2. In browser, press `Ctrl+Shift+I` (or `F12`) → go to `Network` tab
+3. Reload the page, filter by `img`
+4. Right-click → `Save all as HAR with content`
+5. Select the `.har` file in the program
+6. Click `IMPORT` — images will be extracted to selected folder
 
 ### 🐍 If you run from source:
 - `pip install haralyzer pillow`
@@ -97,13 +98,13 @@ IHAR извлекает изображения, закодированные в 
 
 **RU:**
 
-
 ### 🟢 Если у вас `.exe`:
 1. Запустите `extractor_gui.exe`
-2. Выберите HAR-файл (через Ctrl+Shift+I → Network → Save all as HAR)
-3. Укажите папку для сохранения
-4. Нажмите `IMPORT`
-5. Готово — файлы появятся в указанной директории
+2. В браузере нажмите `Ctrl+Shift+I` (или `F12`), вкладка `Сеть (Network)`
+3. Обновите страницу, установите фильтр `img`
+4. ПКМ → `Сохранить как HAR с содержимым (Save all as HAR with content)`
+5. Выберите сохранённый `.har` в программе
+6. Нажмите `IMPORT` — изображения появятся в выбранной папке
 
 ### 🐍 Если запускаете из кода:
 - `pip install haralyzer pillow`

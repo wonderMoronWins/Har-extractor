@@ -1,77 +1,33 @@
-# Byte-compiled / optimized / DLL files
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
-# C extensions
-*.so
-
-# Distribution / packaging
+# Build & dist (PyInstaller output)
 build/
-# dist/           ← удалено
-# output/         ← удалено
-eggs/
-parts/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+dist/
+*.spec
+*.exe
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# Locale compiled files
+*.mo
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
+# Logs & temp
+*.log
+*.tmp
+*.bak
 
-# PyInstaller
-#*.spec
-
-# Virtualenv
-.env/
-.venv/
+# Virtual env (если будет)
 env/
 venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# Profiling
-.prof
-
-# VS Code
+# VS Code / system
 .vscode/
+.DS_Store
+Thumbs.db
 
-# QT / gettext
-*.qm
-*.ts
-
-# Binary files — разрешены
-# *.exe           ← разрешено
-# *.dll           ← можно добавить, если нужно
-
-# Logs
-*.log
+# PyInstaller metadata
+*.manifest
+*.pyz
+*.pkg
+*.toc
