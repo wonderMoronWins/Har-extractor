@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Недавние папки импорта:"
+msgstr "최근 가져오기 폴더:"
+
+msgid "Перетащите .har файл сюда или нажмите ниже"
+msgstr ".har 파일을 여기에 끌어놓거나 아래를 클릭하세요"
+
+msgid "Загрузить .har"
+msgstr ".har 파일 불러오기"
+
+msgid "Импорт"
+msgstr "가져오기"
+
+msgid "Отмена"
+msgstr "취소"
+
+msgid "Выберите язык:"
+msgstr "언어 선택:"
+
+msgid "Русский"
+msgstr "러시아어"
+
+msgid "English"
+msgstr "영어"
+
+msgid "Українська"
+msgstr "우크라이나어"
+
+msgid "Очистить историю"
+msgstr "기록 지우기"
+
+msgid "← Назад"
+msgstr "← 뒤로"
+
+msgid "HAR Importer"
+msgstr "HAR 가져오기 도구"
+
+msgid "Готово"
+msgstr "완료"
+
+msgid "Извлечено изображений:"
+msgstr "추출된 이미지 수:"
+
+msgid "Ошибка"
+msgstr "오류"
+
+msgid "Не удалось прочитать файл:"
+msgstr "파일을 읽을 수 없습니다:"
+
+msgid "Папка недоступна или удалена."
+msgstr "폴더를 사용할 수 없거나 삭제되었습니다."
+
+msgid "История очищена."
+msgstr "기록이 삭제되었습니다."
+
+msgid "Язык изменён"
+msgstr "언어가 변경되었습니다."
+
+msgid "Интерфейс обновлён."
+msgstr "인터페이스가 업데이트되었습니다."
+
+msgid "Выбрать .har файл"
+msgstr ".har 파일 선택"
+
+msgid "Загружен: "
+msgstr "불러옴: "
+
+msgid "Выбрать папку для сохранения"
+msgstr "저장할 폴더 선택"

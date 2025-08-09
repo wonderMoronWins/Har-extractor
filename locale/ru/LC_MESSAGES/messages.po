@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Недавние папки импорта:"
+msgstr "Недавние папки импорта:"
+
+msgid "Перетащите .har файл сюда или нажмите ниже"
+msgstr "Перетащите .har файл сюда или нажмите ниже"
+
+msgid "Загрузить .har"
+msgstr "Загрузить .har"
+
+msgid "Импорт"
+msgstr "Импорт"
+
+msgid "Отмена"
+msgstr "Отмена"
+
+msgid "Выберите язык:"
+msgstr "Выберите язык:"
+
+msgid "Русский"
+msgstr "Русский"
+
+msgid "English"
+msgstr "Английский"
+
+msgid "Українська"
+msgstr "Украинский"
+
+msgid "Очистить историю"
+msgstr "Очистить историю"
+
+msgid "← Назад"
+msgstr "← Назад"
+
+msgid "HAR Importer"
+msgstr "Импорт HAR"
+
+msgid "Готово"
+msgstr "Готово"
+
+msgid "Извлечено изображений:"
+msgstr "Извлечено изображений:"
+
+msgid "Ошибка"
+msgstr "Ошибка"
+
+msgid "Не удалось прочитать файл:"
+msgstr "Не удалось прочитать файл:"
+
+msgid "Папка недоступна или удалена."
+msgstr "Папка недоступна или удалена."
+
+msgid "История очищена."
+msgstr "История очищена."
+
+msgid "Язык изменён"
+msgstr "Язык изменён"
+
+msgid "Интерфейс обновлён."
+msgstr "Интерфейс обновлён."
+
+msgid "Выбрать .har файл"
+msgstr "Выбрать .har файл"
+
+msgid "Загружен: "
+msgstr "Загружен: "
+
+msgid "Выбрать папку для сохранения"
+msgstr "Выбрать папку для сохранения"

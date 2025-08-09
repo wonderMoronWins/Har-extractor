@@ -1,0 +1,18 @@
+# Отключаем всё лишнее от подсчёта GitHub Linguist
+*.po linguist-detectable=false
+*.mo linguist-detectable=false
+*.txt linguist-detectable=false
+*.pdf linguist-detectable=false
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+*.qrc linguist-detectable=false
+*.spec linguist-detectable=false
+*.md linguist-detectable=false
+*.json linguist-detectable=false
+*.toc linguist-detectable=false
+*.ps1 linguist-detectable=false
+
+# Явно указываем основные языки
+*.py linguist-language=Python
+*.ps1 linguist-language=PowerShell
+

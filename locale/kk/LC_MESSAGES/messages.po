@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Недавние папки импорта:"
+msgstr "Соңғы импортталған қалталар:"
+
+msgid "Перетащите .har файл сюда или нажмите ниже"
+msgstr ".har файлын осында апарыңыз немесе төменді басыңыз"
+
+msgid "Загрузить .har"
+msgstr ".har файлын жүктеу"
+
+msgid "Импорт"
+msgstr "Импорт"
+
+msgid "Отмена"
+msgstr "Бас тарту"
+
+msgid "Выберите язык:"
+msgstr "Тілді таңдаңыз:"
+
+msgid "Русский"
+msgstr "Орыс тілі"
+
+msgid "English"
+msgstr "Ағылшын тілі"
+
+msgid "Українська"
+msgstr "Украин тілі"
+
+msgid "Очистить историю"
+msgstr "Тарихты тазалау"
+
+msgid "← Назад"
+msgstr "← Артқа"
+
+msgid "HAR Importer"
+msgstr "HAR импорттаушысы"
+
+msgid "Готово"
+msgstr "Дайын"
+
+msgid "Извлечено изображений:"
+msgstr "Шығарылған суреттер саны:"
+
+msgid "Ошибка"
+msgstr "Қате"
+
+msgid "Не удалось прочитать файл:"
+msgstr "Файлды оқи алмадық:"
+
+msgid "Папка недоступна или удалена."
+msgstr "Қалта қолжетімсіз немесе жойылған."
+
+msgid "История очищена."
+msgstr "Тарих тазартылды."
+
+msgid "Язык изменён"
+msgstr "Тіл өзгертілді."
+
+msgid "Интерфейс обновлён."
+msgstr "Интерфейс жаңартылды."
+
+msgid "Выбрать .har файл"
+msgstr ".har файлын таңдау"
+
+msgid "Загружен: "
+msgstr "Жүктелді: "
+
+msgid "Выбрать папку для сохранения"
+msgstr "Сақтау үшін қалтаны таңдаңыз"

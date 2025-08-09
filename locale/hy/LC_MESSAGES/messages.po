@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid "Недавние папки импорта:"
+msgstr "Վերջին ներմուծման պանակները․"
+
+msgid "Перетащите .har файл сюда или нажмите ниже"
+msgstr "Քաշեք .har ֆայլը այստեղ կամ սեղմեք ներքևում"
+
+msgid "Загрузить .har"
+msgstr "Բեռնել .har ֆայլ"
+
+msgid "Импорт"
+msgstr "Ներմուծել"
+
+msgid "Отмена"
+msgstr "Չեղարկել"
+
+msgid "Выберите язык:"
+msgstr "Ընտրեք լեզուն․"
+
+msgid "Русский"
+msgstr "Ռուսերեն"
+
+msgid "English"
+msgstr "Անգլերեն"
+
+msgid "Українська"
+msgstr "Ուկրաիներեն"
+
+msgid "Очистить историю"
+msgstr "Մաքրել պատմությունը"
+
+msgid "← Назад"
+msgstr "← Հետ"
+
+msgid "HAR Importer"
+msgstr "HAR ներմուծիչ"
+
+msgid "Готово"
+msgstr "Պատրաստ է"
+
+msgid "Извлечено изображений:"
+msgstr "Ելքագրված պատկերներ՝"
+
+msgid "Ошибка"
+msgstr "Սխալ"
+
+msgid "Не удалось прочитать файл:"
+msgstr "Չհաջողվեց կարդալ ֆայլը․"
+
+msgid "Папка недоступна или удалена."
+msgstr "Պանակը հասանելի չէ կամ ջնջվել է։"
+
+msgid "История очищена."
+msgstr "Պատմությունը մաքրվել է։"
+
+msgid "Язык изменён"
+msgstr "Լեզուն փոփոխված է։"
+
+msgid "Интерфейс обновлён."
+msgstr "Ինտերֆեյսը թարմացված է։"
+
+msgid "Выбрать .har файл"
+msgstr "Ընտրել .har ֆայլ"
+
+msgid "Загружен: "
+msgstr "Բեռնված է՝ "
+
+msgid "Выбрать папку для сохранения"
+msgstr "Ընտրեք պանակը պահպանման համար"

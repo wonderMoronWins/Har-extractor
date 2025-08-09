@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build & dist (PyInstaller output)
+build/
+dist/
+*.spec
+*.exe
+
+# Locale compiled files
+*.mo
+
+# Logs & temp
+*.log
+*.tmp
+*.bak
+
+# Virtual env (если будет)
+env/
+venv/
+
+# VS Code / system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# PyInstaller metadata
+*.manifest
+*.pyz
+*.pkg
+*.toc
